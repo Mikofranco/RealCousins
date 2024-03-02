@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8c2f67e815.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Realcousin</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <div class="logo-box">
+            <img src="./images/logo.svg" alt="logo-img" />
+          </div>
+          <div class="logo-text">Realcousin</div>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Feature</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="auth-btns" style="display: flex; gap: 1.5rem">
+          <button class="signin-btn">Sign in</button>
+          <button class="signup-btn">Sign up</button>
+        </div>
+        <div class="hambuger-btn" onclick="displayLinks()">
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <div class="drop-down-links">
+            <div class="container">
+              <div class="auth-btns">
+                <button class="signin-btn" style="display: block; font-size: 32px">
+                  Sign in
+                </button>
+                <button class="signup-btn" style="display: block; font-size: 32px">
+                  Sign up
+                </button>
+              </div>
+              <div class="nav-link">
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Feature</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="mobile-links">
+        <div class="back-btn" onclick="returnToHome()">
+          <i class="fa-solid fa-arrow-left"></i>HomePage
+        </div>
+        <div class="container">
+          <div class="auth-btns">
+            <button class="signin-btn" style="display: block; font-size: 32px">
+              Sign in
+            </button>
+            <button class="signup-btn" style="display: block; font-size: 32px">
+              Sign up
+            </button>
+          </div>
+          <div class="nav-link">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Feature</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-one">
+        <div class="wrapper">
+          <div class="text-search-wrapper">
+            <h1>
+              Connect with your <br />loved ones at anywhere, <br />anytime
+            </h1>
+            <p>
+              We are building a platform that connect and ties together people
+              in diaspora and home
+            </p>
+            <div class="search-box">
+              <button class="get-started-btn">
+                Get started
+                <i class="fa-solid fa-arrow-right" style="margin-left: 7px"></i>
+              </button>
+              <div class="search-fam">
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: gray; margin-left: 10px"
+                ></i>
+                <input type="search" placeholder="Search for family name" />
+              </div>
+            </div>
+          </div>
+
+          <div class="image-area">
+            <img src="./images/heroimg.svg" alt="" / class="main-img">
+            <div class="min-images">
+              <img
+                src="./images/oldipupo.svg"
+                alt=""
+                class="oladipupo-fam"
+                style="display: block"
+              />
+              <img
+                src="./images/esther.svg"
+                alt=""
+                class="esther-fam"
+                style="display: block; margin-top: -2rem; margin-left: 2rem"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-two">
+        <div class="wrapper">
+          <div class="text-head">
+            <h1>The Features Behind Our Product</h1>
+          </div>
+          <div style="position: relative"></div>
+          <div class="card-container">
+            <div style="position: relative">
+              <div class="cards" id="card-right">
+                <div class="wrapper">
+                  <div class="img-area">
+                    <img src="./images/card_pic1.svg" alt="" />
+                  </div>
+
+                  <div class="text-area">
+                    <h1 class="heading">Family Creation</h1>
+                    <p>
+                      Many of us enjoy the sense of connection we get to places,
+                      events, and people through an ancestral tie and family
+                      history...
+                    </p>
+                    <div style="width: fit-content; height: 4rem">
+                      <button class="get-started-btn">
+                        Learn more
+                        <i
+                          class="fa-solid fa-arrow-right"
+                          style="margin-left: 7px"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="position: relative">
+              <div class="cards" id="card-left">
+                <div class="wrapper">
+                  <div class="img-area">
+                    <img src="./images/card_pic2.svg" alt="" />
+                  </div>
+
+                  <div class="text-area">
+                    <h1 class="heading">Building Family Trees</h1>
+                    <p>
+                      Family trees are often presented with the oldest
+                      generations at the top of the tree and the younger
+                      generations at the bottom...
+                    </p>
+                    <div style="width: fit-content; height: 4rem">
+                      <button class="get-started-btn">
+                        Learn more
+                        <i
+                          class="fa-solid fa-arrow-right"
+                          style="margin-left: 7px"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="position: relative">
+              <div class="cards" id="card-right">
+                <div class="wrapper">
+                  <div class="img-area">
+                    <img src="./images/card_pic3.svg" alt="" />
+                  </div>
+
+                  <div class="text-area">
+                    <h1 class="heading">Family Culture & Religion</h1>
+                    <p>
+                      The family has a universal and basic role in all
+                      societies. Research on the history of the family crosses
+                      disciplines and cultures...
+                    </p>
+                    <div style="width: fit-content; height: 4rem">
+                      <button class="get-started-btn">
+                        Learn more
+                        <i
+                          class="fa-solid fa-arrow-right"
+                          style="margin-left: 7px"
+                        ></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-three">
+        <div class="wrapper">
+          <div class="text-area">
+            <h1>What will you like to know about Realcousins?</h1>
+            <p>
+              At Realcousins, we understand that learning about your family
+              history is important and can reveal many...
+            </p>
+            <div style="width: fit-content; height: 4rem">
+              <button class="get-started-btn">
+                Learn more
+                <i class="fa-solid fa-arrow-right" style="margin-left: 7px"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="img-area">
+            <div class="img-container">
+              <img src="./images/sect3img.svg" alt="" width="100%" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-four">
+        <div class="wrapper">
+          <div class="container">
+            <div class="text-area">
+              <img src="./images/sec4vector.svg" alt="" id="vector-up" />
+              <h1>Discover more about the African proverbs here</h1>
+              <div style="width: fit-content; height: 4rem">
+                <button class="get-started-btn">
+                  Learn more
+                  <i
+                    class="fa-solid fa-arrow-right"
+                    style="margin-left: 7px"
+                  ></i>
+                </button>
+                <!-- <img src="./images/sec4vector2.svg" alt="" /> -->
+              </div>
+              <img src="./images/sec4vector2.svg" alt="" id="vector-down" />
+            </div>
+
+            <div class="img-area">
+              <div class="img-container">
+                <img src="./images/sect4img.svg" alt="" style="width: 100%" />
+              </div>
+              <p>“Àtẹ́lẹwọ́ Ẹni <br />Kì Í Tan'ni Jẹ”</p>
+              <i class="fa-solid fa-chevron-right" style="color: white"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="column-one">
+          <div class="logo">
+            <img src="./images/logofooter.svg" alt="" />
+            <h2>Realcousins</h2>
+          </div>
+          <p>
+            Realcousins is a platform designed to make it simple for people to
+            connect with their relatives anywhere in the world.
+          </p>
+        </div>
+
+        <div class="column-two">
+          <h2>Company</h2>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Pricing</li>
+            <li>Contact us</li>
+            <li>FAQ's</li>
+          </ul>
+        </div>
+
+        <div class="column-three">
+          <h2>Quicklinks</h2>
+          <ul>
+            <li>Help</li>
+            <li>Security & Risk management</li>
+            <li>Sign in</li>
+            <li>Sign up</li>
+            <li>FAQ's</li>
+          </ul>
+        </div>
+
+        <div class="column-four">
+          <h2>Reach Us</h2>
+          <ul>
+            <li>info@myfaysalcom</li>
+            <li>+234 816 836 4855</li>
+            <li>24 Walter Reeds road, Lagos, Nigeria</li>
+          </ul>
+        </div>
+
+       
+      </div>
+      <div class="extra-info">
+        <p>© Copyright 2022 Realcousins.com</p>
+        <div class="icons">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./homepage.js"></script>
+  </body>
+</html>
