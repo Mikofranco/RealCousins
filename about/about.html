@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./about.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+    src="https://kit.fontawesome.com/8c2f67e815.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <div class="logo-box">
+            <img src="../images/logo.svg" alt="logo-img" />
+          </div>
+          <div class="logo-text">Realcousin</div>
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Feature</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="auth-btns" style="display: flex; gap: 1.5rem">
+          <button class="signin-btn">Sign in</button>
+          <button class="signup-btn">Sign up</button>
+        </div>
+        <div class="hambuger-btn" onclick="displayLinks()">
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <div class="drop-down-links">
+            <div class="container">
+              <div class="auth-btns">
+                <button
+                  class="signin-btn"
+                  style="display: block; font-size: 32px"
+                >
+                  Sign in
+                </button>
+                <button
+                  class="signup-btn"
+                  style="display: block; font-size: 32px"
+                >
+                  Sign up
+                </button>
+              </div>
+              <div class="nav-link">
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Feature</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="mobile-links">
+        <div class="back-btn" onclick="returnToHome()">
+          <i class="fa-solid fa-arrow-left"></i>HomePage
+        </div>
+        <div class="container">
+          <div class="auth-btns">
+            <button class="signin-btn" style="display: block; font-size: 32px">
+              Sign in
+            </button>
+            <button class="signup-btn" style="display: block; font-size: 32px">
+              Sign up
+            </button>
+          </div>
+          <div class="nav-link">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Feature</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-one">
+        <div class="wrapper">
+          <div class="heading">
+            <h1>About us</h1>
+          </div>
+          <div class="image-area">
+            <div class="image-one">
+              <img src="./image/familyimg1.svg" alt="" style="width: 100%" />
+            </div>
+            <div class="image-two">
+              <img src="./image/familyimg2.svg" alt="" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-two">
+        <div class="wrapper">
+          <div class="heading-box">
+            <h1>
+              Purpose of RealCousins
+              <div class="icon-one">
+                <img
+                  src="./image/iconOne.svg"
+                  alt=""
+                  style="height: 100%; width: 100%"
+                />
+              </div>
+            </h1>
+          </div>
+
+          <div class="content">
+            <p>
+              At Realcousins we understand that learning about your family
+              history is important and can reveal many surprising things that
+              you didn’t know. You can either do a genealogy search online or
+              sit down with members of your family and listen to their stories.
+              No matter how you’ve chosen to gather the information, you’ll end
+              up having a deeper appreciation for who you are and where you come
+              from. Nothing is more eye-opening than learning about who you
+              are...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-three">
+        <div class="wrapper">
+          <div class="container">
+            <div class="text-area">
+              <h1>Our Mission <div class="line"></div></h1>
+              <p>
+                Our mission is to connect and strengthen family ties through
+                shared values, culture, history and to establish the roots of
+                their identity
+              </p>
+            </div>
+            <div class="image-area">
+              <div class="container">
+                <img src="./image/familyimg3.svg" alt="" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+
+          <div class="container" id="reverse-container">
+            <div class="text-area">
+              <h1>Our Vision <div class="line"></div></h1>
+              <p>
+                Our mission is to connect and strengthen family ties through
+                shared values, culture, history and to establish the roots of
+                their identity
+              </p>
+            </div>
+            <div class="image-area">
+              <div class="container">
+                <img src="./image/familyimg4.svg" alt="" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-four">
+        <div class="wrapper">
+          <h1>
+            Frequently Asked Questions
+          </h1>
+          <div class="question-box">
+            <ul>
+              <li>
+                How do I get started on Realcousins?
+                <i class="fa-solid fa-arrow-down"></i>
+              </li>
+              <li>
+                How do I get started on Realcousins?
+                <i class="fa-solid fa-arrow-down"></i>
+              </li><li>
+                How do I get started on Realcousins?
+                <i class="fa-solid fa-arrow-down"></i>
+              </li><li>
+                How do I get started on Realcousins?
+                <i class="fa-solid fa-arrow-down"></i>
+              </li><li>
+                How do I get started on Realcousins?
+                <i class="fa-solid fa-arrow-down"></i>
+              </li><li>
+                How do I get started on Realcousins?
+                <i class="fa-solid fa-arrow-down"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="column-one">
+          <div class="logo">
+            <img src="./images/logofooter.svg" alt="" />
+            <h2>Realcousins</h2>
+          </div>
+          <p>
+            Realcousins is a platform designed to make it simple for people to
+            connect with their relatives anywhere in the world.
+          </p>
+        </div>
+
+        <div class="column-two">
+          <h2>Company</h2>
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Pricing</li>
+            <li>Contact us</li>
+            <li>FAQ's</li>
+          </ul>
+        </div>
+
+        <div class="column-three">
+          <h2>Quicklinks</h2>
+          <ul>
+            <li>Help</li>
+            <li>Security & Risk management</li>
+            <li>Sign in</li>
+            <li>Sign up</li>
+            <li>FAQ's</li>
+          </ul>
+        </div>
+
+        <div class="column-four">
+          <h2>Reach Us</h2>
+          <ul>
+            <li>info@myfaysalcom</li>
+            <li>+234 816 836 4855</li>
+            <li>24 Walter Reeds road, Lagos, Nigeria</li>
+          </ul>
+        </div>
+      </div>
+      <div class="extra-info">
+        <p>© Copyright 2022 Realcousins.com</p>
+        <div class="icons">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./homepage.js"></script>
+  </body>
+</html>
