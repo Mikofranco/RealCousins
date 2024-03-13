@@ -113,89 +113,12 @@ nav .drop-down-links .container button {
   text-decoration: none;
   margin-bottom: 15px;
 }
-.section-one {
-  margin: 3rem 0;
-}
-.section-one .wrapper .image-area {
-  display: flex;
-  gap: 3rem;
-  width: fit-content;
-  margin: auto;
-}
-.section-one .wrapper h1 {
-  text-align: center;
-  font-size: 62px;
-  font-weight: bolder;
-  margin: 3rem 0;
-}
 
-.section-two .wrapper {
-  color: #fff;
-  background-color: #000;
-  max-width: 1283px;
-  margin: 5rem auto;
-  padding: 4rem 10rem;
-  border-radius: 30px;
-}
-.section-two .wrapper .heading-box {
-  width: fit-content;
-}
-.section-two .wrapper .heading-box h1 {
-  position: relative;
-  text-decoration: underline;
-  font-size: 60px;
-  margin-bottom: 5rem;
-}
-.section-two .wrapper .icon-one {
-  position: absolute;
-  top: -2rem;
-  right: -2.5rem;
-  height: 5rem;
-  width: 5rem;
-}
-.section-two .wrapper .content p {
-  line-height: 40px;
-  font-size: 28px;
-  font-weight: 400;
-}
 
-.section-three .wrapper .container {
-  display: flex;
-  gap: 10rem;
-  max-width: 1500px;
-  margin: 3rem auto;
-}
-.section-three .wrapper .container .text-area {
-  flex: 1;
-  justify-content: center;
-  margin: auto;
-}
 
-.section-three .wrapper .container .text-area h1 {
-  font-size: 58px;
-  width: fit-content;
-}
-.section-three .wrapper .container .text-area .line {
-  height: 1rem;
-  margin-top: -1.5rem;
-  background: #7a9ed5;
-  margin-bottom: 3rem;
-}
-.section-three .wrapper .container .text-area p {
-  font-size: 28px;
-  color: #535151;
-  line-height: 40px;
-}
-.section-three .wrapper .container .image-area {
-  flex: 1;
-}
 
-.section-three .wrapper .container .image-area .container {
-  max-width: 555px;
-}
-.section-three .wrapper #reverse-container {
-  flex-direction: row-reverse;
-}
+
+
 
 
 .section-four{
@@ -300,15 +223,7 @@ footer .extra-info {
   nav .hambuger-btn {
     display: block;
   }
-  .section-one {
-    padding: 0 2rem;
-  }
-  .section-two {
-    padding: 0 2rem;
-  }
-  .section-three {
-    padding: 0 2rem;
-  }
+  
   .section-four {
     padding: 0 2rem;
   }
@@ -329,54 +244,7 @@ footer .extra-info {
     flex-direction: column;
   }
   
-  .section-one .wrapper .image-area {
-    display: flex;
-    gap: 1rem;
-    width: fit-content;
-    margin: auto;
-  }
-  .section-one .wrapper h1 {
-    text-align: center;
-    font-size: 46px;
-    font-weight: bolder;
-    margin: 3rem 0;
-  }
   
-  .section-two .wrapper {
-    color: #fff;
-    background-color: #000;
-    max-width: 1283px;
-    margin: 5rem auto;
-    padding: 4rem 3rem;
-    border-radius: 30px;
-  }
-  .section-two .wrapper .heading-box h1 {
-    position: relative;
-    text-decoration: underline;
-    font-size: 32px;
-    margin-bottom: 5rem;
-  }
-  .section-two .wrapper .icon-one {
-    position: absolute;
-    top: -2rem;
-    right: -2.5rem;
-    height: 3rem;
-    width: 3rem;
-  }
-  .section-two .wrapper .content p {
-    line-height: 30px;
-    font-size: 22px;
-    font-weight: 400;
-  }
-
-  .section-three .wrapper .container {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .section-three .wrapper #reverse-container {
-    flex-direction: column;
-  }
-
   .section-four .wrapper h1{
     font-size: 30px;
     width: fit-content;

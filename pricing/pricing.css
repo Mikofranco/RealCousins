@@ -113,107 +113,99 @@ nav .drop-down-links .container button {
   text-decoration: none;
   margin-bottom: 15px;
 }
-.section-one {
-  margin: 3rem 0;
-}
-.section-one .wrapper .image-area {
-  display: flex;
-  gap: 3rem;
-  width: fit-content;
+.section-one .wrapper {
+  max-width: 1300px;
   margin: auto;
+  text-align: center;
 }
 .section-one .wrapper h1 {
-  text-align: center;
-  font-size: 62px;
-  font-weight: bolder;
-  margin: 3rem 0;
-}
-
-.section-two .wrapper {
-  color: #fff;
-  background-color: #000;
-  max-width: 1283px;
-  margin: 5rem auto;
-  padding: 4rem 10rem;
-  border-radius: 30px;
-}
-.section-two .wrapper .heading-box {
-  width: fit-content;
-}
-.section-two .wrapper .heading-box h1 {
-  position: relative;
-  text-decoration: underline;
   font-size: 60px;
-  margin-bottom: 5rem;
+  width: 60%;
+  margin: auto;
 }
-.section-two .wrapper .icon-one {
-  position: absolute;
-  top: -2rem;
-  right: -2.5rem;
-  height: 5rem;
-  width: 5rem;
-}
-.section-two .wrapper .content p {
-  line-height: 40px;
-  font-size: 28px;
-  font-weight: 400;
-}
-
-.section-three .wrapper .container {
-  display: flex;
-  gap: 10rem;
-  max-width: 1500px;
+.section-one .wrapper p {
+  font-size: 20px;
+  line-height: 30px;
   margin: 3rem auto;
 }
-.section-three .wrapper .container .text-area {
-  flex: 1;
-  justify-content: center;
-  margin: auto;
-}
 
-.section-three .wrapper .container .text-area h1 {
-  font-size: 58px;
+.section-two {
+  margin: 5rem 0;
+}
+.section-two .wrapper {
+  display: flex;
+  gap: 3rem;
+  font-size: 20px;
   width: fit-content;
+  margin: auto;
+  padding: 2rem;
 }
-.section-three .wrapper .container .text-area .line {
-  height: 1rem;
-  margin-top: -1.5rem;
-  background: #7a9ed5;
-  margin-bottom: 3rem;
+.section-two .wrapper .plans-card {
+  border: 1px solid #084eb7;
+  padding: 2rem;
+  border-radius: 10px;
 }
-.section-three .wrapper .container .text-area p {
-  font-size: 28px;
-  color: #535151;
-  line-height: 40px;
+.section-two .wrapper #unique{
+  background:#ccddf7; 
+  border: none;
 }
-.section-three .wrapper .container .image-area {
-  flex: 1;
+.section-two .wrapper #unique .fa-check{
+  color: #084eb7;
+}
+.section-two .wrapper #unique button{
+  width: 100%;
+  height: 3rem;
+  outline: none;
+  background: #084eb7;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  margin: 2rem 0;
+  cursor: pointer;
 }
 
-.section-three .wrapper .container .image-area .container {
-  max-width: 555px;
+.section-two .wrapper .price {
+  margin: 2rem 0;
 }
-.section-three .wrapper #reverse-container {
-  flex-direction: row-reverse;
+.section-two .wrapper .h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.section-two .wrapper li {
+  padding: 10px;
+}
+.section-two .wrapper .fa-check {
+  color: #c8c2c2;
+  margin-right: 15px;
+}
+.section-two .wrapper .plans-card button{
+  width: 100%;
+  height: 3rem;
+  outline: none;
+  background: #c9daf2;
+  font-size: 20px;
+  border: none;
+  color: #084eb7;
+  margin: 2rem 0;
+  cursor: pointer;
 }
 
-
-.section-four{
+.section-four {
   margin: 10rem 0;
-
 }
-.section-four .wrapper h1{
+.section-four .wrapper h1 {
   font-size: 60px;
   width: fit-content;
   margin: auto;
+  margin-bottom: 3rem;
 }
-.section-four .wrapper .question-box ul{
+.section-four .wrapper .question-box ul {
   max-width: 1200px;
   border: 1px solid #000;
   border-radius: 20px;
   margin: auto;
 }
-.section-four .wrapper .question-box li{
+.section-four .wrapper .question-box li {
   display: flex;
   font-size: 24px;
   padding: 2rem 2rem;
@@ -221,10 +213,10 @@ nav .drop-down-links .container button {
   align-items: center;
   border-bottom: 1px solid #000;
 }
-.section-four .wrapper .question-box #last-question{
+.section-four .wrapper .question-box #last-question {
   border-bottom: none;
 }
-.section-four .wrapper .question-box .fa-arrow-down{
+.section-four .wrapper .question-box .fa-arrow-down {
   border: 2px solid #000;
   border-radius: 50%;
   width: 2rem;
@@ -242,6 +234,7 @@ footer {
 }
 footer .container {
   display: flex;
+  gap: 2rem;
   color: rgb(117, 115, 115);
 
   padding: 2rem 5rem;
@@ -300,17 +293,20 @@ footer .extra-info {
   nav .hambuger-btn {
     display: block;
   }
-  .section-one {
-    padding: 0 2rem;
-  }
-  .section-two {
-    padding: 0 2rem;
-  }
-  .section-three {
-    padding: 0 2rem;
-  }
+
   .section-four {
     padding: 0 2rem;
+  }
+  .section-two .wrapper {
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .section-one .wrapper h1 {
+    font-size: 40px;
+  }
+  .section-one .wrapper p {
+    font-size: 20px;
+    padding: 0rem 3rem;
   }
 }
 
@@ -328,67 +324,19 @@ footer .extra-info {
   footer .container {
     flex-direction: column;
   }
-  
-  .section-one .wrapper .image-area {
-    display: flex;
-    gap: 1rem;
-    width: fit-content;
-    margin: auto;
-  }
-  .section-one .wrapper h1 {
-    text-align: center;
-    font-size: 46px;
-    font-weight: bolder;
-    margin: 3rem 0;
-  }
-  
-  .section-two .wrapper {
-    color: #fff;
-    background-color: #000;
-    max-width: 1283px;
-    margin: 5rem auto;
-    padding: 4rem 3rem;
-    border-radius: 30px;
-  }
-  .section-two .wrapper .heading-box h1 {
-    position: relative;
-    text-decoration: underline;
-    font-size: 32px;
-    margin-bottom: 5rem;
-  }
-  .section-two .wrapper .icon-one {
-    position: absolute;
-    top: -2rem;
-    right: -2.5rem;
-    height: 3rem;
-    width: 3rem;
-  }
-  .section-two .wrapper .content p {
-    line-height: 30px;
-    font-size: 22px;
-    font-weight: 400;
-  }
 
-  .section-three .wrapper .container {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .section-three .wrapper #reverse-container {
-    flex-direction: column;
-  }
-
-  .section-four .wrapper h1{
+  .section-four .wrapper h1 {
     font-size: 30px;
     width: fit-content;
     margin: auto;
   }
-  .section-four .wrapper .question-box ul{
+  .section-four .wrapper .question-box ul {
     max-width: 1200px;
     border: 1px solid #000;
     border-radius: 20px;
     margin: auto;
   }
-  .section-four .wrapper .question-box li{
+  .section-four .wrapper .question-box li {
     display: flex;
     font-size: 18px;
     padding: 2rem 2rem;
